@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "contactbook"
+version = "0.1.0"
+description = "A simple Contacts App"
+authors = ["Jesus Hincapie <jahlon@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.3.3"
+rich = "^13.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+contacts = "contactbook.app:main"

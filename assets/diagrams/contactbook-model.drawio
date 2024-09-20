@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="UnxVTszu5gvbDZAWaZDA">
+    <mxGraphModel dx="1120" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-1" value="&lt;div&gt;&amp;lt;&amp;lt;dataclass&amp;gt;&amp;gt;&lt;/div&gt;Contact" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="121" width="330" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-2" value="+ name: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-1">
+          <mxGeometry y="40" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-17" value="+ phone: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-1">
+          <mxGeometry y="66" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-18" value="+ email: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-1">
+          <mxGeometry y="92" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-19" value="+ tags: list[str]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-1">
+          <mxGeometry y="118" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-20" value="+ creation_date: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-1">
+          <mxGeometry y="144" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-1">
+          <mxGeometry y="170" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-4" value="+ __init__(name: str, phone: str, email: str, tags: list[str] = [])" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-1">
+          <mxGeometry y="178" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-21" value="+ add_tag(tag: str)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-1">
+          <mxGeometry y="204" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-22" value="+ __str__() -&amp;gt; str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-1">
+          <mxGeometry y="230" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;endSize=9;" edge="1" parent="1" source="cfViVuv2iJeSUfRxhKvW-5" target="cfViVuv2iJeSUfRxhKvW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-10" value="contacts: dict[str, Contact]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfViVuv2iJeSUfRxhKvW-9">
+          <mxGeometry x="0.6588" y="2" relative="1" as="geometry">
+            <mxPoint x="-41" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-11" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfViVuv2iJeSUfRxhKvW-9">
+          <mxGeometry x="0.6706" y="-1" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-5" value="&lt;div&gt;&amp;lt;&amp;lt;dataclass&amp;gt;&amp;gt;&lt;/div&gt;ContactBook" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="147" width="470" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-5">
+          <mxGeometry y="40" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-8" value="+ __init__()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-5">
+          <mxGeometry y="48" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-12" value="+ add_contact(name: str, phone: str, email: str, tags: list[str]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-5">
+          <mxGeometry y="74" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-13" value="+ delete_contact(phone: str)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-5">
+          <mxGeometry y="100" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-14" value="+ list_contacts() -&amp;gt; list[Contact]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-5">
+          <mxGeometry y="126" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-15" value="+ contacts_by_tag(tag: str) -&amp;gt; list[Contacts]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-5">
+          <mxGeometry y="152" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cfViVuv2iJeSUfRxhKvW-16" value="+ search_by_criteria(name: str = &quot;&quot;, phone: str = &quot;&quot;, email: str = &quot;&quot;) -&amp;gt; list[Contacts]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cfViVuv2iJeSUfRxhKvW-5">
+          <mxGeometry y="178" width="470" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
